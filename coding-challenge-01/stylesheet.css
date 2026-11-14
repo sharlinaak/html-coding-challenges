@@ -1,0 +1,95 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*            {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+             }
+
+body         {
+    background-color: #decbcb;
+
+             }
+
+/*Logo section*/
+
+.navbar      {
+    display: flex;
+     align-items: center;
+    background-color: #1e293b;
+    color:rgb(206, 191, 191);
+    padding:10px 10px;
+    margin:0px;
+             }
+
+.navbar nav  {
+    margin:0 auto;
+             }
+
+.nav-links   {
+    display :flex;
+    list-style:none;
+    gap:25px;
+  
+   
+             }
+
+.nav-links a {
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+              }
+
+/*hero image*/
+
+.hero         {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+              }
+
+.hero img     {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display:block;
+             }
+
+.hero-card   {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color:rgba(11,16,38,0.85);
+    padding: 25px;
+    max-width: 400px;
+    border-radius: 6px;
+    color:#f8fafc;
+            }
+
+.btn        {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: #0f172a;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 4px;
+            }
+/* skills*/
+/*content-section*/
+.content-section{
+    max-width:900px;
+    margin:40px auto;
+    padding:0 20px;
+                 }
+footer{
+    background-color:#1e293b;
+    color:#f8fafc;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
