@@ -1,13 +1,11 @@
 html{
-    scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;}
 
 *            {
     margin:0px;
     padding:0px;
     box-sizing:border-box;
              }
-
 body         {
     background-color: #decbcb;
 
